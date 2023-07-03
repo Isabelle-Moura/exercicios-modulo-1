@@ -1,0 +1,43 @@
+{
+  "reports": [
+    {
+      "title": "Programação ainda vale a pena? Dá dinheiro? Profissionais contam como está o setor (e dão dicas)",
+      "image": "https://s2-g1.glbimg.com/VlUdV64_E7gnieuJtj6Q5JlhgIk=/0x0:3000x2000/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/r/q/EM3l4ARyOk1ASN28BG8w/patricia-soulcode-foto-celso-tavares-g1-42-de-110-.jpg",
+      "text": "Área da TI permanece aquecida e há vagas disponíveis, mas os salários altos que sempre chamaram a atenção podem ser impactados pela economia enfraquecida; g1 traz guia completo para quem deseja entrar no mundo dos códigos.",
+      "id": 1
+    },
+    {
+      "title": "'Já incentivo meus filhos'; 'começo pode ser frustrante': profissionais contam como é trabalhar com programação",
+      "image": "https://www.agenciaminas.mg.gov.br/ckeditor_assets/pictures/16272/content_valelelele.jpg",
+      "text": "Em entrevista a Arnia, pessoas da área contam que o universo da programação é uma boa porta de entrada para quem busca construir carreira em TI, mas setor impõe vários desafios; leia relatos.",
+      "id": 2
+    }
+  ],
+  "writers": [
+    {
+      "name": "Isabela Saraiva",
+      "job": "Profissional de Tecnologia da Informação",
+      "id": "1"
+    },
+    {
+      "name": "Pablo Moraes",
+      "job": "Redator de Conteúdo de TI",
+      "id": "2"
+    },
+    {
+      "name": "Nicolas Franco",
+      "job": "Redator de SEO",
+      "id": "3"
+    },
+    {
+      "name": "Ana Laura Melo",
+      "job": "Assistente administrativa",
+      "id": "4"
+    },
+    {
+      "name": "Rafael Martins",
+      "job": "Redator / Copywriter",
+      "id": "5"
+    }
+  ]
+}

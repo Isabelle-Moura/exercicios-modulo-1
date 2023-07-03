@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.card {
+    margin: 1em auto;
+    padding: 1em;
+    width: 20%;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.box-imagem {
+    text-align: center;
+}
+
+.box-imagem img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.box-conteudo {
+    text-align: center;
+}
+
+.box-conteudo p {
+    color: gray;
+}

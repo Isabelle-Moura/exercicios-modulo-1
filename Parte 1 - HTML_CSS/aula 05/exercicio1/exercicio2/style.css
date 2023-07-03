@@ -1,0 +1,16 @@
+li{
+    list-style: none;
+    padding: 4px;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-right: 5px solid  orange;
+    color: orange;
+    font-family: 'Helvetica';
+    max-width: 10%;
+    text-align: left; 
+  }
+  .a{
+    text-decoration: none;
+    color: orange;  
+  }
+  

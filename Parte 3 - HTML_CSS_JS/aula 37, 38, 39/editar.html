@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edição das Notícias - Arnia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="editar.js" defer></script>
+</head>
+
+<body>
+
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img src="https://cdn.izap.com.br/arnia.com.br/plus/images?src=tema/plusfiles/Logotipo.png">
+            </div>
+
+            <div class="page-title">
+                Editar Notícia
+            </div>
+
+            <div>
+                <button id="button" onclick="backToIndexPage()">
+                    Voltar
+                </button>
+            </div>
+        </header>
+
+        <div id="content">
+            <section>
+                <form id="form" class="form-card" novalidate>
+                    <section>
+                        <label for="title">Título:</label><br>
+                        <input id="title" name="writer" class="input imput-field">
+                    </section>
+
+                    <section>
+                        <label for="writer">Autor(a):</label><br>
+                        <select id="writer" name="writer" class="input imput-field"></select>
+                    </section>
+
+                    <section>
+                        <label for="image">Imagem de destaque:</label><br>
+                        <input id="image" name="image" class="input imput-field">
+                    </section>
+
+                    <section>
+                        <label for="text">Texto:</label><br>
+                        <textarea id="text" name="text" class="imput" rows="10" cols="75"></textarea>
+                    </section>
+
+                    <button type="submit" class="submit-button" onclick="backToIndexPage()">
+                        EDITAR
+                    </button>
+                </form>
+            </section>
+        </div>
+    </body>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+a:visited{
+    color: green;
+  }
+  h1{
+    color: green;
+    font: 'Poppins';
+    font-size: 32px;
+  }
+a:link{
+    color: green;
+    font: 'Poppins';
+    font-size: 18px;
+}
+

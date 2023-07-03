@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Busca de Clima</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <script src="https://kit.fontawesome.com/2b32d66645.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1>Busca de Clima</h1>
+  <input type="text" id="city" placeholder="Digite o nome da cidade" title="Área para digitar o nome da cidade e botão para obter a previsão do tempo">
+  <button onclick="cityId()"><i class="fa-solid fa-magnifying-glass"></i></button>
+  
+  <h2 id="cityName"></h2>
+  <p>Temperatura mínima: <span id="min"></span></p>
+  <p>Temperatura máxima: <span id="max"></span></p>
+  <p id="info"></p>
+
+</body>
+</html>

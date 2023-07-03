@@ -1,0 +1,16 @@
+h2{
+    color:blueviolet;
+    font-family:'Roboto';
+    letter-spacing: 1px;
+    font-size: 35px
+  }
+  li{
+    color: orange;
+    font-size: 20px;
+    font-family:'Roboto'; 
+  }
+  p{
+    font-family:'Roboto';
+  }
+  
+  

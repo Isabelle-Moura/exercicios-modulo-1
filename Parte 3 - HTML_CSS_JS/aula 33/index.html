@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro + Modal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div id="content">
+        <h1>Efetue o seu cadastro</h1>
+        <form id="form">
+            <section class="field">
+                <label>Nome Completo</label>
+                <input type="text" name="name" id="name" placeholder="Digite o seu nome completo">
+                <small></small>
+            </section>
+            <section class="field">
+                <label>CPF</label>
+                <input type="text" maxlength="11" name="cpf" id="cpf" placeholder="Digite o seu CPF">
+                <small></small>
+            </section>
+            <section class="field">
+                <label>E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Informe o seu E-mail">
+                <small></small>
+            </section>
+            <section class="field">
+                <label>Senha</label>
+                <input minlength="6" type="password" name="password" id="password" placeholder="Digite a sua senha">
+                <small></small>
+            </section>
+            <button id="end" onclick=openModal() type="submit">Finalizar</button>
+        </form>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close" class="x" onclick="closeModal()">&times;</span>
+            <h1>Seja bem-vindo(a), <label id="modal-name"></label>!</h1>
+            <h4>Um e-mail de confimação foi enviado para <label id="modal-email"></label></h1>
+                <button id="modal-button" onclick="closeModal()">OK</button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.backgroundImage {
+  background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(https://assets.nflxext.com/ffe/siteui/vlv3/76c10fc9-7ccd-4fbf-bc59-f16a468921ca/529648c5-e595-4746-af3f-fab3106e3146/BR-pt-20230529-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-repeat: no-repeat;
+}
+
+.divPai{
+  margin: 30px;
+}
+
+* {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0 !important;
+}
+
+.divHeader{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoNetflix{
+  width: 200px;
+}
+
+.buttonHeader{
+  border: 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  min-height: 2rem;
+  padding: 0.25rem 1rem;
+  background: rgb(229,9,20);
+  color: rgb(255,255,255);
+}
+
+.selectHeader{
+  padding-right: 2.25rem;
+  padding-left: 2.25rem;
+  padding-bottom: 0.375rem;
+  padding-top: 0.375rem;
+  background-color: transparent;
+  border-radius: 5px;
+  background-clip: padding-box;
+  border: 1px solid (rgb(118, 118, 118), rgb(133, 133, 133));
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.divSection1 {
+  padding: 40px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-top: -50px;
+  margin-right: 5px;
+}
+
+.h1Section1 {
+  font-size: 4rem;
+  line-height: 70px;
+  color: rgb(255,255,255);
+  font-weight: 900;
+  width: calc(70% - 0px);
+  margin-bottom: 30px;
+}
+
+.pSection1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
+.h3Section1 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.125rem;
+  text-align: start;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.inputSection1 {
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  background-color: transparent;
+  height: 30px;
+  width: 30%;
+  display: inline-block;
+  background-clip: padding-box;
+  border: 1px solid (rgb(118, 118, 118), rgb(133, 133, 133));
+  font-size: 18px;
+  font-weight: 400;
+  text-align: start;
+  
+}
+
+.buttonSection1{
+  margin-left: 0.5rem;
+  align-items: center;
+  display: inline-flex;
+  vertical-align: text-top;
+  width: auto;
+  font-size: 1.5rem;
+  font-weight: 500;
+  min-height: 3.5rem;
+  padding: 0.75rem 1.5rem;
+  background: rgb(229, 9, 20);
+  color: rgb(255, 255, 255);
+  border: 0px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.divButtonInputSection1 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.divSection2 {
+  background: linear-gradient(333.08deg, #000235 29.2%, #010F42 71.93%, #E40913 111.25%);
+  padding: 2.75rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.divDivisoria{
+  padding: 12px min(10%, 6rem);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.divDivisoria-reverse{
+  padding: 12px min(10%, 6rem);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.pDivSection{
+  font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    box-sizing: inherit;
+    padding: 0px;
+    margin-top: 16px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.p1DivSection2{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1px;
+}
+
+.p2DivSection2{
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.imgSection2{
+  width: 500px;
+  top: 25%;
+  left: 25%;
+}

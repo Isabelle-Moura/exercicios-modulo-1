@@ -1,0 +1,4 @@
+Task:
+    ✔ Tarefa1 @done(23-06-02 11:46)
+    ✔ Tarefa1 @started(23-06-02 11:46) @done(23-06-02 11:46) @lasted(31s)
+    ✘ Tarefa1 @started(23-06-02 11:46) @cancelled(23-06-02 11:46) @wasted(53s)
